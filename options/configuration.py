@@ -50,8 +50,10 @@ class Configuration:
         self.verbose_plot                 = False #plots network weights, etc.
 
         #######################################TEST####################################
+        '''# uncomment while running test
         self.results_dir                  = './results/' #'saves results here.'
         self.phase                        = "test" #train, val, test, etc
         self.which_epoch                  = 'latest' # 'which epoch to load? set to latest to use latest cached model')
         self.num_aug                      = 20 # of augmentation files
         self.is_train                     = True # is training req
+        '''
